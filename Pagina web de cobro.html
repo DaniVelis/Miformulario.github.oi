@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Productos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form id="productForm">
+        <label for="cupcake">Cupcake:</label>
+        <input type="number" id="cupcake" name="cupcake"><br>
+
+        <label for="minicake">Minicake:</label>
+        <input type="number" id="minicake" name="minicake"><br>
+
+        <label for="donas">Donas:</label>
+        <input type="number" id="donas" name="donas"><br>
+
+        <label for="Volovanes">Volovanes:</label>
+        <input type="number" id="Volovanes" name="Volovanes"><br>
+
+        <label for="Empanadas">Empanadas:</label>
+        <input type="number" id="Empanadas" name="Empanadas"><br>
+
+        <label for="Mini Pizzas">Mini Pizzas:</label>
+        <input type="number" id="Mini Pizzas" name="Mini Pizzas"><br>
+
+        <label for="Choco Bombas de Cafe">Choco Bombas de Cafe:</label>
+        <input type="number" id="Choco Bombas de Cafe" name="Choco Bombas de Cafe"><br>
+
+        <label for="Choco Bombas de Cocoa">Choco Bombas de Cocoa:</label>
+        <input type="number" id="Choco Bombas de Cocoa" name="Choco Bombas de Cocoa"><br>
+
+        <label for="Choco Bombas de Bayles">Choco Bombas de Bayles:</label>
+        <input type="number" id="Choco Bombas de Bayles" name="Choco Bombas de Bayles"><br>
+
+        <label for="Galletas Kit 2">Galletas Kit 2:</label>
+        <input type="number" id="Galletas Kit 2" name="Galletas Kit 2"><br>
+
+        <label for="Galletas Kit 3">Galletas Kit 3:</label>
+        <input type="number" id="Galletas Kit 3" name="Galletas Kit 3"><br>
+
+        <label for="Galletas Unitario">Galletas Unitario:</label>
+        <input type="number" id="Galletas Unitario" name="Galletas Unitario"><br>
+
+        <label for="Galletas Caja">Galletas Caja:</label>
+        <input type="number" id="Galletas Caja" name="Galletas Caja"><br>
+
+        <!-- Añade más campos según sea necesario -->
+        <label for="ingresoEfectivo">Ingrese Efectivo:</label>
+        <input type="number" id="ingresoEfectivo" name="ingresoEfectivo"><br>
+
+        <button type="button" onclick="calcularPago()">Calcular Pago</button>
+        <button type="button" onclick="realizarCobro()">Realizar Cobro</button>
+        <button type="reset">Nueva Venta</button>
+
+        <p id="totalProductos"></p>
+        <p id="totalPago"></p>
+        <p id="cambio"></p>
+    </form>
+    <script src="estilo2.js"></script>
+</body>
+</html>
